@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nerds: Catalog</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize-min.css">
+  <link rel="stylesheet" href="css/style-min.css">
+</head>
+
+<body>
+  <header class="catalog-header">
+    <div class="container clearfix">
+      <div class="logo-img">
+        <a href="index.html"><img src="img/logo.png" width="139" height="56" alt="logo nerds"></a>
+      </div>
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="#">Студия</a>
+          </li>
+          <li>
+            <a href="#">Клиенты</a>
+          </li>
+          <li class="active">
+            <span>Магазин</span>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <a class="a-basket" href="#">Корзина</a>
+      </div>
+    </div>
+    <h1 class="header-title">Добро пожаловать в магазин готовых макетов</h1>
+  </header>
+  <main class="container">
+    <div class="catalog clearfix">
+      <div class="content-selections">
+        <form action="#" method="post">
+          <fieldset class="fieldset-form  fieldset-range">
+            <legend class="legend  legend-price">Стоимость:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar" style="margin-left: 0; width: 150px"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price">от
+                <input name="min-price" type="text" value="0">
+              </label>
+                <label class="max-price">до
+                <input name="max-price" type="text" value="15000">
+              </label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="fieldset-form  fieldset-radio">
+            <legend class="legend">Сетка:</legend>
+              <input class="radio" id="radio-1" type="radio" name="radio" disabled>
+              <label for="radio-1">Адаптивная</label>
+              <input class="radio" id="radio-2" type="radio" name="radio">
+              <label for="radio-2">Фиксированная</label>
+              <input class="radio" id="radio-3" type="radio" name="radio">
+              <label for="radio-3">Резиновая</label>
+          </fieldset>
+          <fieldset class="fieldset-form">
+            <legend class="legend legend-last">Особености:</legend>
+              <input class="checkbox" id="check-1" type="checkbox" name="slider" disabled>
+              <label for="check-1">Слайдер</label>
+              <input class="checkbox" id="check-2" type="checkbox" name="block">
+              <label for="check-2">Блок преимуществ</label>
+              <input class="checkbox" id="check-3" type="checkbox" name="news">
+              <label for="check-3">Новости</label>
+              <input class="checkbox" id="check-4" type="checkbox" name="gallery">
+              <label for="check-4">Галерея</label>
+              <input class="checkbox" id="check-5" type="checkbox" name="basket">
+              <label for="check-5">Корзина</label>
+          </fieldset>
+          <button class="btn btn-show" type="submit">Показать</button>
+        </form>
+      </div>
+      <div class="content-templates">
+        <ul class="content-sorting clearfix">
+          <li> Сортировать:</li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#" class="sort-active">По функционалу</a></li>
+          <li class="arrows">
+            <a href="#" class="arrow   arrow-down active"></a>
+            <a href="#" class="arrow arrow-up"></a>
+          </li>
+        </ul>
+        <div class="cards">
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/aviator.jpg" width="240" height="240" alt="Aviator">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title">Aviator</p>
+              <p class="card-p">Одностраничный макет с авторским дизайном</p>
+              <a href="#" class="btn btn-red">8000 Р.</a>
+            </div>
+          </article>
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/sunset.jpg" width="240" height="240" alt="Sunset">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title">Sunset</p>
+              <p class="card-p">Интернет-магазин
+                <br> с личным кабинетом</p>
+              <a href="#" class="btn btn-red">10000 Р.</a>
+            </div>
+          </article>
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/forte.jpg" width="240" height="240" alt="Forte">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title">Forte</p>
+              <p class="card-p">Отличный макет для личного блога</p>
+              <a href="#" class="btn btn-red">5000 Р.</a>
+            </div>
+          </article>
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/modern-organic-thai.jpg" width="240" height="240" alt="Modern organic thai">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title  card-title-modern">Modern organic thai</p>
+              <p class="card-p card-p-modern">Сайт для ресторана быстрого питания</p>
+              <a href="#" class="btn btn-red">12 000 Р.</a>
+            </div>
+          </article>
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/avenue.jpg" width="240" height="240" alt="Avenue">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title">Avenue</p>
+              <p class="card-p">Макет для блога о путешествиях</p>
+              <a href="#" class="btn btn-red">8000 Р.</a>
+            </div>
+          </article>
+          <article class="card">
+            <ul class="browser">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="card-image">
+              <img src="img/dovetail.jpg" width="240" height="240" alt="Dovetail">
+            </div>
+            <div class="card-hidden">
+              <p class="card-title">Dovetail</p>
+              <p class="card-p">Интернет-магазин с галереей товаров</p>
+              <a href="#" class="btn btn-red">14000 Р.</a>
+            </div>
+          </article>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a class="active-link" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a class="next-link" href="#">Следующая</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424124054!2d30.320894616195037!3d59.9387968690478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1455724648764"
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="form">
+      <h2>NЁRDS DESIGN STUDIO</h2>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <a class="tel" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+      <a class="btn btn-form" href="/form">Напишите нам</a>
+    </div>
+  </div>
+  <footer class="main-footer">
+    <div class="container clearfix">
+      <div class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </div>
+      <div class="footer-text">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="modal-content">
+    <form class="feedback-form" action="#" method="get">
+      <div class="form-field name-field">
+        <label for="name-field">Ваше имя:</label>
+        <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name-field">
+      </div>
+      <div class="form-field email-field">
+        <label for="email-field">Ваш e-mail:</label>
+        <input type="email" name="email" placeholder="Для отправки ответа" id="email-field">
+      </div>
+      <div class="form-field text-field">
+        <label for="text-field">Текст письма:</label>
+        <textarea name="text" placeholder="В свободной форме" id="text-field"></textarea>
+      </div>
+      <button class="btn send-btn" type="submit">Отправить</button>
+    </form>
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+  </div>
+  <script src="js/feedback-min.js"></script>
+</body>
+
+</html>
